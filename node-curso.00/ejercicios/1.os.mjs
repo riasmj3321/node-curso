@@ -24,3 +24,16 @@ Versión: 5.15.90.1-microsoft-standard-WSL2
 /home/fabian
 */
 
+import chalk from "chalk";
+import os from "node:os";
+
+console.log(chalk.blue("1. Información del sistema operativo:"));
+console.log(chalk.green(`Plataforma: ${os.platform()}`));
+console.log(chalk.green(`Arquitectura: ${os.arch()}`));
+console.log(chalk.green(`Versión: ${os.release()}`));
+console.log(chalk.blue("---------------------------------------"));
+console.log(chalk.blue("2. Directorio de usuario:"));
+console.log(chalk.green(os.homedir()));
+
+
+
