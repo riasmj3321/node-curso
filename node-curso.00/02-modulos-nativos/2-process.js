@@ -1,3 +1,5 @@
+const { log } = require('node:console');
+const { loadavg } = require('node:os');
 const process = require("node:process");
 
 console.log(process.cwd()); // Trae el directorio actual de trabajo

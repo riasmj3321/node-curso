@@ -5,12 +5,14 @@
     "main": "index.js",
     "scripts": {
         "fabian": "node index.js",
-        "info": "node 02-modulos-nativos/1-os.js"
+        "info": "node 02-modulos-nativos/1-os.js",
+        "saludar": "node ejercicios/2.process.js"
     },
     "keywords": [],
     "author": "Fabian Gomez",
     "license": "MIT",
     "dependencies": {
-        "chalk": "^5.3.0"
+        "chalk": "5.3.0",
+        "dotenv": "16.3.1"
     }
 }

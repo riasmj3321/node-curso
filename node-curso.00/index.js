@@ -1,1 +1,4 @@
-console.log("Hola mundo desde NodeJS")
+const fs = require ("./02-modulos-nativos")
+
+console.log(fs);
+

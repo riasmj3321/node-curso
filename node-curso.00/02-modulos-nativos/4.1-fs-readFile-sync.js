@@ -13,3 +13,5 @@ const archivo2 = fs.readFileSync("./nombres.txt", "utf-8");
 
 console.log("Contenido del segundo archivo:");
 console.log(archivo2);
+
+module.exports = fs
