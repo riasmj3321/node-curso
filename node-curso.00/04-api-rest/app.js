@@ -2,7 +2,6 @@ import express from "express";
 import { usersRouter } from "./routes/users.js";
 import { moviesRouter } from "./routes/movies.js";
 
-
 const app = express();
 
 // Middleware para parsear el body a json
